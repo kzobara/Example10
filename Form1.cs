@@ -22,7 +22,7 @@ namespace Example10
             int age = int.Parse(txtAge.Text);
             if (age == 60)
                 lblResult.Text = "還暦です";
-            else; if (age >= 20)
+            else if (age >= 20)
                 lblResult.Text = "成人です";
             else 
                 lblResult.Text = "未成年です";
